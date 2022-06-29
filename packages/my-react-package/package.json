@@ -9,11 +9,11 @@
     "/lib"
   ],
   "scripts": {
-    "prepack": "yarn build",
-    "prebuild": "yarn clean",
-    "build": "rollup -c",
-    "clean": "rimraf lib my-react-package-*.tgz",
-    "watch": "rollup -cw"
+    "prepack": "npm run build",
+    "prebuild": "npm run clean",
+    "build": "npx rollup -c",
+    "clean": "npx rimraf lib my-react-package-*.tgz",
+    "watch": "npx rollup -cw"
   },
   "keywords": [],
   "author": "PhatNguyen <phatnt.uit@gmail.com> (https://phatnguyenuit.github.io)",
